@@ -1,0 +1,37 @@
+READ ME
+
+Aubrey Fernando
+2271086
+ferna190@mail.chapman.edu
+
+FILES:
+- main.cpp
+- input.cpp -input.h
+- euclidean.cpp euclidean.h
+- manhattan.cpp -Manhattan.h
+- gh.cpp -GH.h
+-output.out
+-5test.txt
+-10test.txt
+
+ABOUT:
+At main program references input.cpp to take in user input and read in the file.
+In input.cpp the file is read in and the grid is saved as a 2d Array. The amount of
+rows and the 2d array is sent to the main and the main references the search algorithms.
+The search algorithms take in the row amount and the 2d array.
+In the search algorithms a copy of the array is made to later output the file path.
+The initial and goal spots are found and the simulation begins.
+The simulation checks the cardinal positions starting from the initial position.
+It checks if the location exists on the board and then if it can be traversed(isopen).
+It then checks if it has been in this location before.
+If the smallest distance has not been set, the smallest distance is set with the first
+distance calculated. This distance is compared with other distances are calculated.
+The robot moves to the location with the smallest distance and loops through until
+it reaches the goal.
+
+The terminal outputs each search algorithms distance travelled and total nodes and
+path it traversed.
+
+output is sent to the output.out file. 
+
+REFERENCES:

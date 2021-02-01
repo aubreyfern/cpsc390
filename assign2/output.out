@@ -1,0 +1,27 @@
+EUCLIDEAN DISTANCE:
+Total Distance:12.7678
+Total Nodes:6
+ooog.
+o++..
+oi+..
+..+..
++...+
+
+MANHATTAN DISTANCE
+Total Distance:26
+Total Nodes:8
+ooog.
+o++..
+oi+..
+oo+..
++...+
+
+GH DISTANCE
+Total Distance:27.7678
+Total Nodes:6
+ooog.
+o++..
+oi+..
+..+..
++...+
+

@@ -1,0 +1,6 @@
+Is the algorithm A* with the last two functions? If yes, which of the two h
+should produce the smallest search tree?
+
+Yes, A* is with the last two functions because it uses the goal to find the
+shortest distance. The euclidean should produce the smallest distance because
+it takes the square root of the values and it the straight line distance.
